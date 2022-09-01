@@ -1,0 +1,26 @@
+{
+  "name": "sorting-visualizer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "watchify public/js/script.js -o public/js/bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/csongormatenyiri/Sorting-Visualizer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/csongormatenyiri/Sorting-Visualizer/issues"
+  },
+  "homepage": "https://github.com/csongormatenyiri/Sorting-Visualizer#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "watchify": "^4.0.0"
+  }
+}

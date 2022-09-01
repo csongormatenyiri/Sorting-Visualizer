@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles.css" />
+    <title>Sorting Visualizer</title>
+  </head>
+  <body>
+    <div id="toolbar">
+      <button id="generate-array">Generate New Array</button>
+      <div class="separator"></div>
+      <div class="text" id="array-size-text">Change Array Size</div>
+      <input id="array-size" class="input-range" type="range" min="4" max="150" value="15" />
+      <div class="separator"></div>
+      <div class="text">Change Sorting Speed</div>
+      <input id="sorting-speed" class="input-range" type="range" min="0" max="700" value="350" />
+      <div class="separator"></div>
+      <button class="algorithm-button" id="merge-sort">Merge Sort</button>
+      <button class="algorithm-button" id="quick-sort">Quick Sort</button>
+      <button class="algorithm-button" id="insertion-sort">Insertion Sort</button>
+      <button class="algorithm-button" id="bubble-sort">Bubble Sort</button>
+    </div>
+
+    <div id="array-container"></div>
+
+    <script src="/js/bundle.js"></script>
+  </body>
+</html>

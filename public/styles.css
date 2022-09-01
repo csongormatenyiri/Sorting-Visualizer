@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  color: white;
+  background-color: rgb(230, 230, 230);
+  user-select: none;
+}
+
+/* Toolbar */
+
+#toolbar {
+  width: 100%;
+  height: 100px;
+  background-color: #34495e;
+}
+
+#generate-array {
+  border: none;
+  background: none;
+  padding: 0;
+  color: white;
+  font-size: 16px;
+  font-family: monospace;
+  display: inline-block;
+  margin-left: 25px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+#generate-array:hover {
+  color: rgb(212, 212, 212);
+}
+
+#generate-array:disabled {
+  color: rgba(214, 29, 29, 0.8);
+  cursor: auto;
+}
+
+.text {
+  font-size: 16px;
+  font-family: monospace;
+  display: inline-block;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.input-range {
+  outline: none;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.separator {
+  width: 5px;
+  height: 55px;
+  background-color: rgba(0, 0, 0, 0.8);
+  margin-left: 15px;
+  margin-right: 15px;
+  display: inline-block;
+}
+
+.algorithm-button {
+  border: none;
+  background: none;
+  padding: 0;
+  color: white;
+  font-size: 16px;
+  font-family: monospace;
+  display: inline-block;
+  margin-left: 15px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.algorithm-button:hover {
+  color: rgb(212, 212, 212);
+}
+
+.algorithm-button:disabled {
+  color: white;
+  cursor: auto;
+}
+
+.current-algorithm-button {
+  border: none;
+  background: none;
+  padding: 0;
+  color: rgb(241, 94, 255);
+  font-size: 16px;
+  font-family: monospace;
+  display: inline-block;
+  margin-left: 15px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.current-algorithm-button:disabled {
+  cursor: auto;
+}
+
+input[type='range'] {
+  -webkit-appearance: none;
+  border: 1px solid white;
+  width: 100px;
+}
+
+input[type='range']::-webkit-slider-runnable-track {
+  width: 100px;
+  height: 5px;
+  border: none;
+  border-radius: 3px;
+}
+
+input[type='range']::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: none;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background: rgb(241, 94, 255);
+  margin-top: -4px;
+}
+
+input[type='range']:focus {
+  outline: none;
+}
+
+/* Body */
+
+#array-container {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.array-bar {
+  padding-top: 7px;
+  font-family: sans-serif;
+  font-weight: 700;
+  display: inline-block;
+  background-color: rgba(66, 134, 244, 0.8);
+}
